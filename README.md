@@ -15,7 +15,9 @@ Audrey, Mikko, Ibrahim & Rafael
 
 * [SOCKET.IO](https://socket.io/) - SOCKET.IO Documentation
 
-```
+SERVER METHODS
+
+
 
 ON METHODS
 'join'
@@ -23,9 +25,9 @@ params : nickname, room, language
 'sendMessage'
 params : nickname, room, language, message
 
-```
 
-```
+
+
 
 EMIT METHODS
 'adminMessage'
@@ -39,4 +41,34 @@ return : array of translated messages
 'joinMessage'
 return : array of translated messages
 
-```
+
+
+## GOOGLE WEBKIT SPEECH RECOGNITION
+
+* [WEBKIT SPEECH RECOGNITION](https://developers.google.com/web/updates/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API)
+
+
+
+ON METHODS
+'join'
+params : nickname, room, language
+'sendMessage'
+params : nickname, room, language, message
+
+
+
+
+
+EMIT METHODS
+'adminMessage'
+return : array of translated messages
+'updateUserList'
+return : array of users
+'newMessage'
+return : array of translated messages
+'leftMessage'
+return : array of translated messages
+'joinMessage'
+return : array of translated messages
+
+
