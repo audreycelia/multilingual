@@ -49,26 +49,3 @@ return : array of translated messages
 
 
 
-ON METHODS
-'join'
-params : nickname, room, language
-'sendMessage'
-params : nickname, room, language, message
-
-
-
-
-
-EMIT METHODS
-'adminMessage'
-return : array of translated messages
-'updateUserList'
-return : array of users
-'newMessage'
-return : array of translated messages
-'leftMessage'
-return : array of translated messages
-'joinMessage'
-return : array of translated messages
-
-
